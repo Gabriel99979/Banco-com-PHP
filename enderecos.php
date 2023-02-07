@@ -10,4 +10,4 @@ $outroEndereco = new Endereco('Rio', 'Centro', 'Uma Rua','50');
 // echo $umEndereco->recuperaRua() . ", " . $umEndereco->recuperaBairro() . ", " . ou chamar endereco depois de ter impementado toString
 
 echo $umEndereco . PHP_EOL;
-echo $outroEndereco;
+echo $outroEndereco->Rua;
